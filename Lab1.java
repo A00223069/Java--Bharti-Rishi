@@ -1,15 +1,16 @@
  /* Lab 1 - Intro to Java
-Write a program to determine a salesperson’s commission in a week.
+    Write a program to determine a salesperson’s commission in a week.
 
-With an If-Else-If statement print the amount of commission and final value (eg 5% of $1000 will give $50)
+    With an If-Else-If statement print the amount of commission and final value (eg 5% of $1000 will give $50)
 
-    If the sales are outside the range $0-$5000 error and exit with message “Sales don’t add up”
+        If the sales are outside the range $0-$5000 error and exit with message “Sales don’t add up”
 
-    If the sales are less than $1000 print “Commission is 5%”
+        If the sales are less than $1000 print “Commission is 5%”
 
-    If the sales are greater than or equal to $1000 print “Commission is 10%”
+        If the sales are greater than or equal to $1000 print “Commission is 10%”
 
-    If the sales are greater than or equal to $4000 print “Commission is 15%” */
+        If the sales are greater than or equal to $4000 print “Commission is 15%”
+ */
 
 import java.util.Scanner;
 public class Sales{
