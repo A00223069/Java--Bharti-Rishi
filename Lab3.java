@@ -51,12 +51,12 @@ public class Student {
     public void setGrade(Double studentGrade)
     {
         this.studentGrade=studentGrade;
-
     }
     public Double getGrade()
     {
         return studentGrade;
     }
+    
     public void getAssessment()
     {
         if(studentGrade<=49)
@@ -82,6 +82,8 @@ public class Student {
 
     }
 }
+
+
 
 
 
@@ -134,6 +136,7 @@ class StudentRunner {
         System.out.println();
 
     }
+    
    public static void assessment(Student object)
     {
 
