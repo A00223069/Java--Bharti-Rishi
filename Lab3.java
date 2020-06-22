@@ -1,3 +1,17 @@
+/*
+Write a Student class with two data fields and appropriate types and permissions
+studentNamegrade
+
+Write a 0 argument (default) constructor setting the data fields to David and 99.9 by default
+
+Write appropriate accessors and mutators for both data fields
+
+Write a StudentRunner class to test and display your Student
+
+Run all of the accessors to print the data, then call all of the mutators and print the new data.
+You do not need a Scanner (you can change the values to your name, and the grade you hope to get in the course.)
+*/
+
 public class Student {
     private String studentName;
     private Double studentGrade;
